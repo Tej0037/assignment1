@@ -1,0 +1,136 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family:cursive;
+    position: relative;
+}
+.menu {
+    background-color: #171e2a;
+    padding: 20px 0;
+    text-align: right;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li {
+    display: inline;
+}
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.menu ul li a:hover {
+    background-color: #555;
+}
+.header {
+    background-image: url('https://plus.unsplash.com/premium_photo-1664301443844-7ec7cd5cab4c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29ybiUyMGZpZWxkfGVufDB8fDB8fHww');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #191616;
+    padding: 30px;
+}
+.header h1 {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+}
+.header p{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #100f0f;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.crops-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.crop {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(234, 231, 231, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.crop img {
+    width: 100%; 
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.crop h2 {
+    color: #333;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.crop p {
+    color: #666;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.crop a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.crop a:hover {
+    text-decoration: underline;
+}
+.footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 20px 0;
+left: 0;
+bottom: 0;
+width: 100%;
+}
+
+.footer p {
+margin: 0;
+}

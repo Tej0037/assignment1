@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrizone</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+            font-family:cursive;
+            position: relative;
+        }
+        .menu {
+            background-color: #171e2a;
+            padding: 20px 0;
+            text-align: right;
+        }
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .menu ul li {
+            display: inline;
+        }
+        .menu ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        .menu ul li a:hover {
+            background-color: #555;
+        }
+        .header {
+            background-image: url('https://plus.unsplash.com/premium_photo-1664301443844-7ec7cd5cab4c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29ybiUyMGZpZWxkfGVufDB8fDB8fHww');
+            background-size: cover;
+            background-position: center;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #191616;
+            padding: 30px;
+        }
+        .header h1 {
+            margin-top: 0px;
+            text-align: center;
+            font-size: 46px;
+            font-weight: bold;
+        }
+        .header p{
+            margin-top: 0px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #100f0f;
+            font-size: 38px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .crops-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 20px;
+            justify-items: center;
+        }
+
+        .crop {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(234, 231, 231, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .crop img {
+            width: 100%; 
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .crop h2 {
+            color: #333;
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .crop p {
+            color: #666;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .crop a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        .crop a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+}
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#climate">Climate</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#methods">Methods</a></li>
+        </ul>
+    </div>
+    <div class="header">
+        <h1>Welcome to Agrizone</h1>
+        <p>From the largest farm to the smallest market garden, agriculture thoroughly depends on climate. Learn more about how crops and livestock will be affected, and how farms and farmers can rise to the challenge of climate change.</p>
+    </div>
+    <div class="container">
+        <h2>About Us</h2>
+        <p>Welcome to our Crop Information Portal, where you can find detailed information about various crops, including their cultivation, uses, and benefits. At Agrizone, we cultivate knowledge, nourish growth, and champion sustainable farming. Join us on this green journey! 🌱🚜</p>
+        
+        <h2>Featured Crops</h2>
+        <div class="crops-container">
+            <div class="crop">
+                <img src="https://images.unsplash.com/photo-1634467524884-897d0af5e104?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Corn fields">
+                <div class="crop-info">
+                    <h2>Corn</h2>
+                    <p>Corn, also known as maize, is one of the most widely grown cereal crops.</p>
+                    <p><a href="corn.html">Learn More</a></p>
+                </div>
+            </div>
+            <div class="crop">
+                <img src="https://images.unsplash.com/photo-1561504935-4e7d4516a2d1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Rice fields">
+                <div class="crop-info">
+                    <h2>Rice</h2>
+                    <p>Rice is a fundamental food crop for a significant portion of the world's population, particularly in Asia.</p>
+                    <p><a href="rice.html">Learn More</a></p>
+                </div>
+            </div>
+            <div class="crop">
+                <img src="https://images.unsplash.com/photo-1437252611977-07f74518abd7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Wheat fields">
+                <div class="crop-info">
+                    <h2>Wheat</h2>
+                    <p>Wheat is a grass widely cultivated for its seed, a cereal grain that is a worldwide staple food.</p>
+                    <p><a href="wheat.html">Learn More</a></p>
+                </div>
+            </div>
+            <div class="crop">
+                <img src="https://plus.unsplash.com/premium_photo-1670574872504-56cdb36ffa64?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sunflower fields">
+                <div class="crop-info">
+                    <h2>Sunflower</h2>
+                    <p>Sunflower is a tall, annual plant, native to the Americas, that has a large flowering head.</p>
+                    <p><a href="sunflower.html">Learn More</a></p>
+                </div>
+            </div>
+            <div class="crop">
+                <img src="https://plus.unsplash.com/premium_photo-1661820382470-3163c4a50cf1?q=80&w=1914&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Soybean fields">
+                <div class="crop-info">
+                    <h2>Soybean</h2>
+                    <p>Soybean is a species of legume native to East Asia, widely grown for its edible bean.</p>
+                    <p><a href="soybean.html">Learn More</a></p>
+                </div>
+            </div>
+            <div class="crop">
+                <img src="https://plus.unsplash.com/premium_photo-1694864661950-288ec8a06e5c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sugarcane fields">
+                <div class="crop-info">
+                    <h2>Sugarcane</h2>
+                    <p>Sugarcane is a tall, perennial grass that is used for producing sugar and ethanol.</p>
+                    <p><a href="sugarecane.html">Learn More</a></p>
+                </div>
+            </div>
+            <div class="crop">
+                <img src="https://plus.unsplash.com/premium_photo-1664372599369-dd9f4ee07254?q=80&w=2066&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Potato fields">
+                <div class="crop-info">
+                    <h2>Potato</h2>
+                    <p>Potato is a starchy tuberous crop from the perennial nightshade Solanum tuberosum.</p>
+                    <p><a href="potato.html">Learn More</a></p>
+                </div>
+            </div>
+            <div class="crop">
+                <img src="https://images.unsplash.com/photo-1633380110125-f6e685676160?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Carrot fields">
+                <div class="crop-info">
+                    <h2>Carrot</h2>
+                    <p>Carrot is a root vegetable, usually orange in color, though purple, black, red, white, and yellow cultivars exist.</p>
+                    <p><a href="carrot.html">Learn More</a></p>
+                </div>
+            </div>
+            <div class="crop">
+                <img src="https://images.unsplash.com/photo-1502395809857-fd80069897d0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cotton fields">
+                <div class="crop-info">
+                    <h2>Cotton</h2>
+                    <p>Cotton is a soft, fluffy staple fiber that grows in a boll, or protective case, around the seeds of the cotton plants.</p>
+                    <p><a href="cotton.html">Learn More</a></p>
+                </div>
+            </div>
+            <div class="crop">
+                <img src="https://images.unsplash.com/photo-1518006959466-0db0b6b4c1d0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Chili pepper fields">
+                <div class="crop-info">
+                    <h2>Chili Pepper</h2>
+                    <p>Chili pepper is the fruit of plants from the genus Capsicum, members of the nightshade family, Solanaceae.</p>
+                    <p><a href="chili peppers.html">Learn More</a></p>
+                </div>
+            </div>
+            <div class="crop">
+                <img src="https://images.unsplash.com/photo-1655745570225-d92558d90e7d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Strawberry fields">
+                <div class="crop-info">
+                    <h2>Strawberry</h2>
+                    <p>Strawberry is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries.</p>
+                    <p><a href="strawberry.html">Learn More</a></p>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <div class="footer">
+        <p>Contact us: w23.tejdeep719.northern@purescollege.ca</p>
+        <p>Phone:416-825-1012</p>
+        <p>Student id: 202110037</p>
+    </div>
+</body>
+</html>
