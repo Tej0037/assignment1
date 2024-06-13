@@ -4,7 +4,7 @@ Welcome to Agrizone! This project aims to provide valuable information about var
 
 ## About
 
-Agrizone is a web application developed by [Your Name] as a personal project to showcase skills in web development, agriculture, and technology. This repository contains the source code for the Agrizone website, including HTML, CSS, and any JavaScript or backend code if applicable.
+Agrizone is a web application developed by Tejdeep Singh as a personal project to showcase skills in web development, agriculture, and technology. This repository contains the source code for the Agrizone website, including HTML, CSS.
 
 ## Features
 
