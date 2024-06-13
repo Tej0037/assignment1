@@ -1,0 +1,118 @@
+.menu {
+    background-color: #171e2a;
+    padding: 20px 0;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure menu is above other elements */
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu ul li a:hover {
+    background-color: #555;
+}
+
+.container {
+    max-width: 800px;
+    margin: 80px auto 80px; /* Adjust top and bottom margins to make space for the fixed menu and footer */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.container h2 {
+    color: #333;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.container h3 {
+    color: #555;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.container ul {
+    margin-bottom: 15px;
+}
+
+.container ul li {
+    margin-bottom: 5px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.contact-form {
+    margin-top: 30px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}

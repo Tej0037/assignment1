@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Agrizone</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .menu {
+            background-color: #171e2a;
+            padding: 20px 0;
+            text-align: right;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000; 
+        }
+
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu ul li {
+            display: inline;
+        }
+
+        .menu ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        .menu ul li a:hover {
+            background-color: #555;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 80px auto 80px; /* Adjust top and bottom margins to make space for the fixed menu and footer */
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .container h2 {
+            color: #333;
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .container h3 {
+            color: #555;
+            font-size: 26px;
+            font-weight: bold;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        .container p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .container ul {
+            margin-bottom: 15px;
+        }
+
+        .container ul li {
+            margin-bottom: 5px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+
+        .contact-form {
+            margin-top: 30px;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Welcome to my personal space on the web! I'm Tejdeep Singh, the creator of Agrizone. Here's a bit about me:</p>
+
+        <h3>Introduction</h3>
+        <p>I'm a passionate web developer with a keen interest in agriculture and technology. Through Agrizone, I aim to bridge the gap between farming and digital innovation.</p>
+
+        <h3>Background</h3>
+        <p>I hold a Bachelor's degree in Computer Engineering Technician from Northern College]. Additionally, I've completed several web development courses, honing my skills in HTML, CSS, JavaScript, and other IT technologies.</p>
+
+        <h3>Skills</h3>
+        <p>Proficient in:</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Database Management</li>
+        </ul>
+
+        <h3>Projects</h3>
+        <p>Here are some IT projects I've worked on:</p>
+        <ul>
+            <li>Project 1: A e-commerce website for school project.</li>
+        </ul>
+
+        <h3>Contact Me</h3>
+        <div class="contact-form">
+            <form action="submit_contact.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Contact us: w23.tejdeep719.northern@purescollege.ca</p>
+        <p>Phone:416-825-1012</p>
+        <p>Student id: 202110037</p>
+    </div>
+</body>
+</html>
