@@ -7,7 +7,7 @@ body {
     scroll-behavior: smooth;
 }
 header {
-    background: url('https://images.unsplash.com/photo-1586771107445-d3ca888129ff?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background: url('cantact.jpg');
     color: white;
     padding: 80px 0;
     text-align: center;
@@ -28,10 +28,6 @@ header::after {
 header h1 {
     position: relative;
     z-index: 1;
-}
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
 }
 nav {
     background: rgba(0, 0, 0, 0.7);
@@ -65,10 +61,6 @@ nav a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     animation: slideIn 1s ease-in-out;
-}
-@keyframes slideIn {
-    from { transform: translateY(20px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
 }
 h2 {
     color: #444;
@@ -104,7 +96,7 @@ h2 {
     font-weight: bold;
 }
 .contact-form input, .contact-form textarea {
-    width: 100%;
+    width: calc(100% - 30px);
     padding: 15px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
