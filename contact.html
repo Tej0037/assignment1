@@ -14,7 +14,7 @@
             scroll-behavior: smooth;
         }
         header {
-            background: url('https://images.unsplash.com/photo-1586771107445-d3ca888129ff?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background: url('cantact.jpg');
             color: white;
             padding: 80px 0;
             text-align: center;
@@ -103,7 +103,7 @@
             font-weight: bold;
         }
         .contact-form input, .contact-form textarea {
-            width: 100%;
+            width: calc(100% - 30px);
             padding: 15px;
             margin-bottom: 15px;
             border: 1px solid #ccc;
@@ -144,8 +144,7 @@
     <nav>
         <a href="index.html">Home</a>
         <a href="contact.html">Contact</a>
-        <a href="about.html">About us</a>
-        <a href="aboutme.html">About Me</a>
+        <a href="about.html">About</a>
     </nav>
     <header>
         <h1>Contact Us</h1>
@@ -160,18 +159,18 @@
             </div>
             <div class="contact-form">
                 <h2>Contact Form</h2>
-                <form id="contact-form">
+                <form action="index.php" method="post">
+                    <label for="id">ID</label>
+                    <input type="text" id="id" name="id" required>
+    
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" required>
     
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
+                    <label for="address">Address</label>
+                    <input type="text" id="address" name="address" required>
     
-                    <label for="phone">Phone</label>
-                    <input type="tel" id="phone" name="phone" required>
-    
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <label for="salary">Salary</label>
+                    <input type="text" id="salary" name="salary" required>
     
                     <button type="submit">Submit</button>
                 </form>
@@ -180,7 +179,7 @@
     </div>
     <div class="footer">
         <p>Contact us: w23.tejdeep719.northern@purescollege.ca</p>
-        <p>Phone:416-825-1012</p>
+        <p>Phone: 416-825-1012</p>
         <p>Student id: 202110037</p>
     </div>
 </body>
